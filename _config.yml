@@ -1,0 +1,35 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Backend matters
+
+description: Backend matters
+author:
+  name: Oliver Arafat
+  email: oliver.arafat@outlook.com
+  github: arafato
+  twitter: osarafat
+  pinterest:
+  linkedin: oliver-arafat/21/30a/33/
+  bio: Hi, I'm Oliver! AWS Evangelist Germany, Father of two, Runner and Cyclist. Opinions are my own.
+  email_md5: 1c8b750b0b5d085e4f97f57cdffd30bf
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+about_path: about.html
+
+permalink: :year/:month/:day/:title
+
+BASE_PATH:

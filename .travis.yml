@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.0.0
+install:
+- bundle install
+script: bundle exec s3_website push
+branches:
+  only:
+  - master
+env:
+  global:
+    secure: cBNjWveQlSOcyvaFijRcgxLRrvyT8FOfi+vDLmSH1ZuMayv99/LgouLZYW+nPHCg43Z5piI47gl6oRBQdhxl53HdZs3tiguZ2L9FBQ/MseaOnWzkRplH/o5dFMHu7YYIQZukDISJBRhNB0oo9u14YaAKvkEq3TTbPgihc06AwvQ=
+secure: WWRGsfaKRGaSflZjumJPEQwMNdbg+H63kjaiu1VdyoCk+o3tIJ8joZnGI6ZGfDPctG0XUU4BqBMNxWjbCg7bfUplrR1PQ4xboLpt9pG+ASyh7TKbZWPz77vXL1OKggwfqdSubI7l0MWhI4SuvrzAPW4XG1y+QmdkhwAaT6yXKho=
