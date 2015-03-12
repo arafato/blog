@@ -5,8 +5,7 @@ categories: [Testing, AWS, Mobile]
 tags: [AWS, Browserstack, Testing, Weinre ]
 ---
 
-tl;dr
------
+####tl;dr
 Quickly setting up a service in only a few minutes on AWS that
 allows us to debug both our locally and remotely deployed apps and web
 applications on almost every device and platform you can imagine via
