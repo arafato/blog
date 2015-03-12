@@ -23,9 +23,9 @@ Add-WindowsFeature Web-IP-Security
 Set-WebConfigurationProperty -Filter /system.webserver/security/ipsecurity -Name allowUnlisted -Value $false -PSPath 'IIS:'
 # Explicitly setting allowed ip ranges for...
 # Some IP Range (XXX.XXX.XXX.*)
-Add-WebConfiguration -Filter /system.webserver/security/ipsecurity -PSPath 'IIS:' -Value @{ipAddress=’XXX.XXX.XXX.XXX’;subnetMask=’255.255.255.0’;allowed=$true
+Add-WebConfiguration -Filter /system.webserver/security/ipsecurity -PSPath 'IIS:' -Value @{ipAddress='XXX.XXX.XXX.XXX';subnetMask='255.255.255.0';allowed=$true
 # Some other IP Range (XXX.XXX.XXX.*)
-Add-WebConfiguration -Filter /system.webserver/security/ipsecurity -PSPath 'IIS:' -Value @{ipAddress=’XXX.XXX.XXX.XXX’;subnetMask=’255.255.255.0’;allowed=$true
+Add-WebConfiguration -Filter /system.webserver/security/ipsecurity -PSPath 'IIS:' -Value @{ipAddress='XXX.XXX.XXX.XXX';subnetMask='255.255.255.0';allowed=$true
 {% endhighlight  %}
 
 Key is to add the Windows feature Web-IP-Security which allows you to
