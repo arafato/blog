@@ -1,4 +1,8 @@
 s3_id: <%= ENV['S3_KEY'] %>
 s3_secret: <%= ENV['S3_SECRET'] %>
 s3_bucket: www.backendmatters.com
+max_age:
+	"assets/*": 6000
+	"css/*": 6000
+	"*": 600
 gzip: true
