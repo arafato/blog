@@ -97,7 +97,7 @@ all set! Now to the fun part!
 
 ####Let the Magic happen!
 For the rest of this post it is assumed that you include the following
-<script> tag in your app. This let’s your app talk to the weinre
+script-tag in your app. This let’s your app talk to the weinre
 server:
 
 {% highlight html %}
