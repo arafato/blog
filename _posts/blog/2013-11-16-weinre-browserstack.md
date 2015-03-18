@@ -90,7 +90,7 @@ Node.js (Weinre runs on top of it). Fire up IE, go to
 there. Once it has been set up open up the command-line and type npm
 –g install weinre. This will install Weinre through the Node.js
 package management system. Then start weinre with weinre –boundHost
-<IPv4 address of your VM>. If you want to change the port it will
+\<IPv4 address of your VM\>. If you want to change the port it will
 listen to, use –boundPort but don’t forget to adjust your endpoint in
 the Azure management portal accordingly! Believe it or not, now you’re
 all set! Now to the fun part!
