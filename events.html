@@ -1,0 +1,38 @@
+---
+layout: events
+title: On the Road
+permalink: /events/
+---
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 centered">
+            <h2>You can catch up with me personally at the following events.</h2>
+            <br>
+	    
+            <!-- <div class="hline"></div> -->
+        </div>
+
+	<table class="table table-striped">
+	  <thead>
+	    <tr>
+	      <th>Date</th>
+	      <th>Event</th>
+	      <th>Location</th>
+	      <th>Talk</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    {% for event in site.events  %}
+	    <tr>
+	      <td>{{ event.date  }}</td>
+	      <td><a href="{{ event.website  }}">{{ event.name  }}</a></td>
+	      <td>{{ event.location  }}</td>
+              <td><a href="{{ event.talk-url }}" target="_blank">{{ event.talk }} </a></td>
+	    </tr>
+	    {% endfor  %}
+	  </tbody>
+	</table>
+	
+    </div>
+</div><! --/container -->
