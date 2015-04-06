@@ -5,7 +5,7 @@ date: 2013-11-01
 author: oliver
 categories:
 - blog
-- IIS
+- Powershell
 - Code-Snippets
 - Azure
 ---

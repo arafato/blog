@@ -6,8 +6,6 @@ author: oliver
 categories:
 - blog
 - Azure
-- Windows Server
-- Security
 ---
 
 Since I was reading

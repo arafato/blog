@@ -5,9 +5,7 @@ date: 2013-11-16
 author: oliver
 categories:
 - blog
-- Testing
-- Debugging
-- Mobile
+- Testing and Debugging
 - Azure
 ---
 
