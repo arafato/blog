@@ -37,20 +37,19 @@ social:
 about: "Oliver Arafat is an Evangelist at Amazon Web Services covering Germany. Father of two, husband, serious runner and cycler."
 
 events:
-  - name: AWS Summit Frankfurt
-    location: Congress Center, Frankfurt
-    date: March 24th
-    website: http://aws.amazon.com/de/campaigns/event-enterprise/
-  - name: AWS Summit London  
-    location: ExCel, London
-    date: April 15th
-    website: http://aws.amazon.com/de/summits/london/
+  - name: Heureka
+    location: Alte Münze, Berlin
+    date: May 4th
+    website: http:/heureka-conference.com
+    talk: How to build innovation into <br>the DNA of your Company
+    talk-url: http:/heureka-conference.com/workshop-1
   - name: EnterJS
     location: darmstadtium, Darmstadt
     date: June 17-19th
     website: http://www.enterjs.de
     talk: Kosteneffiziente Qualitätssicherung <br>mit virtuellen Hardware-Labs
     talk-url: http://www.enterjs.de/abstracts#kosteneffiziente-qualitaetssicherung
+
 
     
       
