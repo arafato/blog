@@ -49,7 +49,7 @@ events:
     website: http://www.enterjs.de
     talk: Kosteneffiziente Qualitätssicherung <br>mit virtuellen Hardware-Labs
     talk-url: http://www.enterjs.de/abstracts#kosteneffiziente-qualitaetssicherung
-
-
-    
-      
+  - name: AWS Summit Berlin
+    location: City Tube, Berlin
+    date: June 30th
+    website: http://aws.amazon.com/summits/berlin/
