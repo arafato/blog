@@ -40,9 +40,9 @@ events:
   - name: Heureka
     location: Alte Münze, Berlin
     date: May 4th
-    website: http:/heureka-conference.com
+    website: http://heureka-conference.com
     talk: How to build innovation into <br>the DNA of your Company
-    talk-url: http:/heureka-conference.com/workshop-1
+    talk-url: http://heureka-conference.com/workshop-1
   - name: EnterJS
     location: darmstadtium, Darmstadt
     date: June 17-19th
